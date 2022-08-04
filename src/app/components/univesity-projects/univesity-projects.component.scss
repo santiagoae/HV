@@ -1,0 +1,30 @@
+.background{
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat-Bold;
+}
+
+@media (min-width: 700px){    
+    .background img{      
+       max-width: 400px;     
+    }
+}
+
+@media (min-width: 1200px){
+    .background{      
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        font-size: 30px;        
+    }
+    .background h5{ 
+        font-size: 40px;        
+    }
+    .background img{      
+       max-width: 600px;     
+    }
+}

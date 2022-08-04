@@ -1,0 +1,30 @@
+.background{
+    padding: 10%;
+    font-family: Montserrat-Bold;
+    color: white;
+}
+
+@media (min-width: 700px){    
+    .background{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+    }
+    .background h5{
+        font-size: 30px;
+        
+    }
+}
+
+@media (min-width: 1200px){
+    .background h5{
+        font-size: 50px;
+        
+    }    
+    .background{
+        font-size: 30px;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+}

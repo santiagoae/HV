@@ -1,0 +1,19 @@
+.background{
+    padding: 10%;
+    font-family: Montserrat-Bold;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px){
+    .background h1{
+        font-size: 60px;
+    }
+    .background h5{
+        font-size: 40px;
+    }
+    .background{
+        font-size: 30px;
+        justify-content: space-around;
+    }
+}

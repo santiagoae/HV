@@ -8,6 +8,7 @@ import { UnivesityProjectsComponent } from './components/univesity-projects/univ
 import { CoursesPersonalProjectsComponent } from './components/courses-personal-projects/courses-personal-projects.component';
 import { StudiesHobbiesLanguagesComponent } from './components/studies-hobbies-languages/studies-hobbies-languages.component';
 import { ReferencesComponent } from './components/references/references.component';
+import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReferencesComponent } from './components/references/references.componen
     UnivesityProjectsComponent,
     CoursesPersonalProjectsComponent,
     StudiesHobbiesLanguagesComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,

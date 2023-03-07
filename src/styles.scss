@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url(./assets/fuente/Montserrat-Regular.ttf);

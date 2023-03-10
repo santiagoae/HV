@@ -13,7 +13,14 @@
     background-color:unset;
     text-align: center;
     text-shadow: 1.5px 1.5px 1px black;
+    width: 100%;
 }
+
+.cards{
+    margin-bottom: 1rem;
+    min-height: 80vh;
+}
+
 #tics{
     background-image: url(/assets/img/logoCompleto.png);
 }
@@ -24,16 +31,60 @@
     background-image: url(/assets/img/logoTen.png);
 }
 
-@media (min-width: 700px){    
-    
+
+@media (min-width: 768px) {
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        // background-color: aqua;
+        min-height: 65vh;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 18rem;
+    }
 }
+
+@media (min-width: 1024px) {
+    .cards{
+        min-height: auto;
+    }
+}
+
 
 @media (min-width: 1200px){
     .background h5{
         margin-top: 50px;
-        font-size: 50px;
+        font-size: 45px;
     }
     .background p{
         font-size: 30px;
+    }
+    .card{
+        // background-color: aqua;
+        min-height: 70vh;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 50rem;
+    }
+}
+
+@media (min-width: 1366px){
+    .background h5{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+    .background p{
+        font-size: 24px;
+        text-align: justify;
+    }
+    .card{
+        // background-color: aqua;
+        min-height: 102vh;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 58rem;
     }
 }

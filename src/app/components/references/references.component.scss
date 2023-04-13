@@ -8,13 +8,17 @@
     justify-content: center;
 }
 
+
+
 @media (min-width: 1200px){
     .background{
-        flex-direction: row;
         font-size: 30px;
     }
     .background h5{
-        
-        font-size: 40px;
+        font-size: 36px;
+    }
+    .references{
+        display: flex;
+        justify-content: space-between;
     }
 }

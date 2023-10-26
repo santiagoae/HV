@@ -14,6 +14,7 @@
     text-align: center;
     text-shadow: 1.5px 1.5px 1px black;
     width: 100%;
+    color: white;
 }
 
 .cards{
@@ -86,5 +87,13 @@
         box-sizing: border-box;
         padding: 1rem;
         width: 58rem;
+    }
+    
+    #courses{
+        display: flex;       
+    }
+
+    #devops,  #efset{
+        width: 100%;
     }
 }
